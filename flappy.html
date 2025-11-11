@@ -440,7 +440,7 @@
                             <input type="file" id="gameOverSound" accept="audio/*">
                             <div class="file-input-button">📁 Choose Audio</div>
                         </div>
-                        <div class="file-name" id="gameOverFileName">Using Default (End Song)</div>
+                        <div class="file-name" id="gameOverFileName">Using Default (kyu-nahi-ho-rahi-padhai.mp3)</div>
                     </div>
                 </div>
             </div>
@@ -515,9 +515,11 @@
         function loadDefaults() {
             birdImg.src = 'mamdani.jpg';
             obstacleImg.src = 'q.png';
-            gameOverImg.src = 'ds.jpg';
+            // default game-over image (updated)
+            gameOverImg.src = 'alakh.png';
             bgMusic.src = 'bgsong.mp3';
-            gameOverAudio.src = 'end1.mp3';
+            // default game-over audio (updated)
+            gameOverAudio.src = 'kyu-nahi-ho-rahi-padhai.mp3';
             
             bgMusic.loop = true;
             bgMusic.volume = 0.4;
